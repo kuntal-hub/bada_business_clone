@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bechi Babsa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body class="m-0 p-0" onresize="resizewindow()">
+    <nav class="block h-auto md:flex md:justify-around box-border w-screen bg-blue-600 md:h-12 p-1.5">
+        <div class="text-white text-lg font-semibold ml-3 mr-3">Enquiry for call now : 📞 9810544443
+            <button class="md:hidden float-right" id="expend_more"><span
+                    class="material-symbols-outlined">menu</span></button>
+        </div>
+        <ul class="text-white hidden md:flex text-sm mt-1.5 font-semibold" id="menu">
+            <li class="ml-2 mr-2 hover:underline"><a href="#">Home</a></li>
+            <li class="ml-2 mr-2 hover:underline"><a href="#">Products</a></li>
+            <li class="ml-2 mr-2 hover:underline"><a href="#">7 star</a></li>
+            <li class="ml-2 mr-2 hover:underline"><a href="#">Dr vivek Bindra</a></li>
+            <li class="ml-2 mr-2 hover:underline"><a href="#">Business Blog</a></li>
+        </ul>
+
+    </nav>
+    <div class="p-2"><img class="w-28 ml-14 sm:w-[150px] sm:ml-20 md:w-auto md:ml-28"
+            src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/logo.png"
+            alt="vivek ar boro bara"></div>
+    <div
+        class="box-border bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHfKB8KtR1GJ9upZeClOIJI0FjVFH-zpv0pg&usqp=CAU')] bg-no-repeat w-screen h-[600px] bg-[length:100%_100%] pt-8 pb-8 md:h-[500px]">
+        <img class="w-auto h-28 ml-auto mr-auto mb-0 md:ml-[15vw] md:h-[12vw] md:mt-12"
+            src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/billonare_blueprint_logo.png"
+            alt=""><br>
+        <div
+            class="ml-auto mr-auto mb-3 bg-[#FFD700] grid place-content-center rounded-xl w-[300px] h-14 text-black font-semibold md:ml-[15vw] lg:ml-[20vw]">
+            1 Year Program In Entrepreneurship</div>
+        <img class="w-auto h-[335px] ml-auto mr-auto md:absolute md:top-[200px] md:right-[8vw] md:h-[350px] lg:h-[450px] lg:right-[16vw] lg:top-[140px]"
+            src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/VBS_1.png" alt="">
+        <img class="w-auto h-16 absolute top-[590px] left-[15%] sm:left-[30%] md:left-[15vw] lg:h-20 md:top-[440px] lg:top-[500px]"
+            src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/first_time_1.png" alt="">
+    </div>
+
+    <div class="bg-blue-600 w-screen h-auto pt-6 pb-6">
+        <div class="md:flex justify-around">
+            <h2
+                class="text-4xl text-white text-center font-bold mb-4 w-[80%] ml-auto mr-auto md:w-[35%] md:grid md:place-content-center">
+                KYA AAPKO YE CHALLENGES AA RAHE HAIN?</h2>
+            <div class="bg-white rounded-md ml-auto mr-auto w-[90%] p-4 md:w-[50%]">
+                <p class="mt-2 mb-2">👉 Earning Opportunity with Bada Business</p>
+                <p class="mt-2 mb-2">👉 Sahi Career Choose karne Main.</p>
+                <p class="mt-2 mb-2">👉 Right Business Opportunity Choose Karne Main.</p>
+                <p class="mt-2 mb-2">👉 Impressive Personality Build Karne Main.</p>
+                <p class="mt-2 mb-2">👉 Branding & Growth Strategy Banane Main.</p>
+                <p class="mt-2 mb-2">👉 Business ke Liye Limited BUDGET Hai.</p>
+                <p class="mt-2 mb-2">👉 Time Manage Karne Main.</p>
+            </div>
+        </div>
+        <div>
+            <p class="text-white text-3xl font-semibold w-[40%] ml-auto mr-auto text-center mt-8">Join Billionaire's
+                Blueprint Program By Dr. Vivek Bindra</p>
+            <button
+                class="bg-red-600 text-white w-[60%] ml-auto mr-auto h-11 rounded-3xl mt-8 block hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 md:w-[500px] font-bold"
+                onclick="chengeEnrollFormDisplay()">Register
+                Now</button>
+        </div>
+
+    </div>
+
+    <div class="mt-9">
+        <h2
+            class="bg-blue-600 rounded-xl ml-auto mr-auto p-4 w-[90%] grid place-content-center text-white font-bold text-2xl text-center md:w-[600px]">
+            AAP YE KAISE ACHIEVE KARENGE?</h2>
+        <div class="flex justify-center flex-wrap">
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-black pb-4 rounded-3xl"><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/achive_1.jpg"
+                    alt="">India Ke Top Industrialists se Learning.</div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-black pb-4 rounded-3xl"><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/achive_2.jpg"
+                    alt="">Unke Experience se Insights & knowledge.</div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-black pb-4 rounded-3xl"><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/achive_3.jpg"
+                    alt="">Real Life Case Studies se Practical Knowledge.</div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-black pb-4 rounded-3xl"><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/achive_4.jpg"
+                    alt="">Affordable Price Main Best Learning</div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-black pb-4 rounded-3xl"><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/achive_5.jpg"
+                    alt="">Practical Learning ka Complete Package</div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-black pb-4 rounded-3xl"><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/achive_6.jpg"
+                    alt="">Entrepreneurship ki A to Z Learning</div>
+        </div>
+        <p class="text-center text-3xl text-black font-semibold">Level Up your Skills</p>
+        <button
+            class="bg-red-600 text-white w-[60%] ml-auto mr-auto h-11 rounded-3xl mt-8 block hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 md:w-[500px] font-bold"
+            onclick="chengeEnrollFormDisplay()">Register
+            Now</button>
+    </div>
+
+    <div class="skew-y-[-6deg] bg-blue-600 pt-6 mt-8">
+        <div class="bg-blue-600 p-5 pb-16 mt-8 rounded-3xl skew-y-6">
+            <h2 class="text-white text-3xl font-bold text-center z-10">Start Your Success Journey Now!</h2><br>
+            <h3 class="text-white text-3xl font-bold text-center mb-6">Contact Now!</h3>
+            <form onsubmit="handelsubmit(event)">
+                <input type="text" placeholder="Name"
+                    class="w-[90%] ml-auto mr-auto text-black font-semibold mt-1 mb-1 block h-14 p-7 rounded-3xl"><br>
+                <input type="number" placeholder="Mobile Number"
+                    class="w-[90%] ml-auto mr-auto text-black font-semibold mt-1 mb-1 block h-14 p-7 rounded-3xl"><br>
+                <input type="email" placeholder="Email(optional)"
+                    class="w-[90%] ml-auto mr-auto text-black font-semibold mt-1 mb-1 block h-14 p-7 rounded-3xl"><br>
+                <input type="submit" value="Submit Details"
+                    class="bg-red-600 text-white w-[90%] ml-auto mr-auto h-16 rounded-3xl mt-8 block hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 font-bold text-xl">
+            </form>
+        </div>
+    </div>
+
+    <div class="pt-12 pb-12">
+        <h2
+            class="bg-blue-600 rounded-xl ml-auto mr-auto p-4 w-[90%] grid place-content-center text-white font-bold text-2xl text-center md:w-[600px] mb-5">
+            AAP KYA SEEKHENGE</h2>
+
+        <div class="flex justify-center flex-wrap">
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_1.png"
+                    alt="">
+            </div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_2.png"
+                    alt="">
+            </div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_3.png"
+                    alt="">
+            </div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_4.png"
+                    alt="">
+            </div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_5.png"
+                    alt="">
+            </div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_6.png"
+                    alt="">
+            </div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_7.png"
+                    alt="">
+            </div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_8.png"
+                    alt="">
+            </div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_9.png"
+                    alt="">
+            </div>
+            <div class="w-[350px] m-5 text-center text-white font-semibold bg-blue-600 pb-4 rounded-3xl">
+                <p class="border-b-white border-b-4 w-[90%] p-3 ml-auto mr-auto">Lorem ipsum dolor sit amet.</p><img
+                    class="w-[100%] h-auto rounded-3xl"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/learn_10.png"
+                    alt="">
+            </div>
+        </div>
+        <button
+            class="bg-red-600 text-white w-[60%] ml-auto mr-auto h-16 rounded-3xl mt-8 block hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 md:w-[500px] font-bold"
+            onclick="chengeEnrollFormDisplay()">Click
+            Hear To Unlock <br>Your Real Potential</button>
+    </div>
+    <div>
+        <h2
+            class="bg-blue-600 rounded-xl ml-auto mr-auto p-4 w-[90%] grid place-content-center text-white font-bold text-2xl text-center md:w-[600px] mb-5">
+            AAPKO KYA MILEGA</h2>
+        <div class="flex justify-center flex-wrap">
+            <div class="w-[350px] m-5 text-center h-[300px] md:w-[290px] lg:w-[350px]"><img
+                    class="ml-auto mr-auto z-30 w-[150px] h-[162px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/Earning2.png"
+                    alt="">
+                <p class="h-[100px] w-[100%] rounded-3xl shadow-lg shadow-indigo-500/40 text-2xl font-bold p-3">Earning
+                    Opportunity <br><span class="text-lg mt-1 font-semibold">with Bada Business</span></p>
+            </div>
+
+            <div class="w-[350px] m-5 text-center h-[300px] md:w-[290px] lg:w-[350px]"><img
+                    class="ml-auto mr-auto z-30 w-[150px] h-[162px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/what_get_7.png"
+                    alt="">
+                <p class="h-[100px] w-[100%] rounded-3xl shadow-lg shadow-indigo-500/40 text-2xl font-bold p-3">One Year
+                    <br><span class="text-lg mt-1 font-semibold">Suport</span>
+                </p>
+            </div>
+
+            <div class="w-[350px] m-5 text-center h-[300px] md:w-[290px] lg:w-[350px]"><img
+                    class="ml-auto mr-auto z-30 w-[150px] h-[162px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/what_get_9.png"
+                    alt="">
+                <p class="h-[100px] w-[100%] rounded-3xl shadow-lg shadow-indigo-500/40 text-2xl font-bold p-3">Live
+                    Class<br><span class="text-lg mt-1 font-semibold">MonDay To Friday</span></p>
+            </div>
+
+            <div class="w-[350px] m-5 text-center h-[300px] md:w-[290px] lg:w-[350px]"><img
+                    class="ml-auto mr-auto z-30 w-[150px] h-[162px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/what_get_10.png"
+                    alt="">
+                <p class="h-[100px] w-[100%] rounded-3xl shadow-lg shadow-indigo-500/40 text-2xl font-bold p-3">Earning
+                    Opportunity <br><span class="text-lg mt-1 font-semibold">with Bada Business</span></p>
+            </div>
+
+            <div class="w-[350px] m-5 text-center h-[300px] md:w-[290px] lg:w-[350px]"><img
+                    class="ml-auto mr-auto z-30 w-[150px] h-[162px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/what_get_11.png"
+                    alt="">
+                <p class="h-[100px] w-[100%] rounded-3xl shadow-lg shadow-indigo-500/40 text-2xl font-bold p-3">Earning
+                    Opportunity <br><span class="text-lg mt-1 font-semibold">with Bada Business</span></p>
+            </div>
+
+            <div class="w-[350px] m-5 text-center h-[300px] md:w-[290px] lg:w-[350px]"><img
+                    class="ml-auto mr-auto z-30 w-[150px] h-[162px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/what_get_12.png"
+                    alt="">
+                <p class="h-[100px] w-[100%] rounded-3xl shadow-lg shadow-indigo-500/40 text-2xl font-bold p-3">Earning
+                    Opportunity <br><span class="text-lg mt-1 font-semibold">with Bada Business</span></p>
+            </div>
+
+            <div class="w-[350px] m-5 text-center h-[300px] md:w-[290px] lg:w-[350px]"><img
+                    class="ml-auto mr-auto z-30 w-[150px] h-[162px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/what_get_13.png"
+                    alt="">
+                <p class="h-[100px] w-[100%] rounded-3xl shadow-lg shadow-indigo-500/40 text-2xl font-bold p-3">Earning
+                    Opportunity <br><span class="text-lg mt-1 font-semibold">with Bada Business</span></p>
+            </div>
+
+            <div class="w-[350px] m-5 text-center h-[300px] md:w-[290px] lg:w-[350px]"><img
+                    class="ml-auto mr-auto z-30 w-[150px] h-[162px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/what_get_14.png"
+                    alt="">
+                <p class="h-[100px] w-[100%] rounded-3xl shadow-lg shadow-indigo-500/40 text-2xl font-bold p-3">Earning
+                    Opportunity <br><span class="text-lg mt-1 font-semibold">with Bada Business</span></p>
+            </div>
+
+            <div class="w-[350px] m-5 text-center h-[300px] md:w-[290px] lg:w-[350px]"><img
+                    class="ml-auto mr-auto z-30 w-[150px] h-[162px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/what_get_15.png"
+                    alt="">
+                <p class="h-[100px] w-[100%] rounded-3xl shadow-lg shadow-indigo-500/40 text-2xl font-bold p-3">Earning
+                    Opportunity <br><span class="text-lg mt-1 font-semibold">with Bada Business</span></p>
+            </div>
+
+
+        </div>
+        <p class="text-center p-4 text-3xl font-semibold">
+            Click Here To Start <br>
+            Your Entrepreneurial Journey
+        </p>
+        <button
+            class="bg-red-600 text-white w-[60%] ml-auto mr-auto h-16 rounded-3xl mt-2 block hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 md:w-[500px] font-bold"
+            onclick="chengeEnrollFormDisplay()">Register
+            Now</button>
+    </div>
+
+    <div class="pt-11 pb-11">
+        <h2
+            class="bg-blue-600 rounded-xl ml-auto mr-auto p-4 w-[90%] grid place-content-center text-white font-bold text-2xl text-center md:w-[600px] mb-5">
+            GET CERTIFICATE</h2>
+        <div class="flex justify-center flex-wrap">
+            <div class="w-[90%] md:w-[40%] m-5">
+                <img src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/Certificate-of-Completion.png"
+                    alt="">
+                <p class="p-5 mt-0">
+                <p class="text-blue-600 text-3xl font-bold text-center">Certificate of Completion</p>
+                <p class="text-black text-xl font-semibold text-center mt-3">By Bada Business</p>
+                <span class="w-[100px] border-b-8 border-b-gray-400 block ml-auto mr-auto mt-3"></span>
+                </p>
+            </div>
+
+            <div class="w-[90%] md:w-[40%] m-5">
+                <img src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/Certificate-of-Exclusive.png"
+                    alt="">
+                <p class="p-5 mt-0">
+                <p class="text-blue-600 text-3xl font-bold text-center">Certificate of Exclusive Program on “Grooming &
+                    Personality Development</p>
+                <p class="text-black text-xl font-semibold text-center mt-3">By Bada Business</p>
+                <span class="w-[100px] border-b-8 border-b-gray-400 block ml-auto mr-auto mt-3"></span>
+                </p>
+            </div>
+
+            <div class="w-[90%] md:w-[40%] m-5">
+                <img src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/Certificate-of-Exclusive2.png"
+                    alt="">
+                <p class="p-5 mt-0">
+                <p class="text-blue-600 text-3xl font-bold text-center">Certificate of Exclusive Program on “Digital
+                    Marketing”</p>
+                <p class="text-black text-xl font-semibold text-center mt-3">By Bada Business</p>
+                <span class="w-[100px] border-b-8 border-b-gray-400 block ml-auto mr-auto mt-3"></span>
+                </p>
+            </div>
+
+            <div class="w-[90%] md:w-[40%] m-5">
+                <img src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/Certificate-of-Exclusive3.png"
+                    alt="">
+                <p class="p-5 mt-0">
+                <p class="text-blue-600 text-3xl font-bold text-center">Certificate of Exclusive Program on “Social
+                    Media Influencer”</p>
+                <p class="text-black text-xl font-semibold text-center mt-3">By Bada Business</p>
+                <span class="w-[100px] border-b-8 border-b-gray-400 block ml-auto mr-auto mt-3"></span>
+                </p>
+            </div>
+
+            <div class="w-[90%] md:w-[40%] m-5">
+                <img src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/Certificate-of-Exclusive4.png"
+                    alt="">
+                <p class="p-5 mt-0">
+                <p class="text-blue-600 text-3xl font-bold text-center">Certificate of Exclusive Program on “Selling
+                    Skill”</p>
+                <p class="text-black text-xl font-semibold text-center mt-3">By Bada Business</p>
+                <span class="w-[100px] border-b-8 border-b-gray-400 block ml-auto mr-auto mt-3"></span>
+                </p>
+            </div>
+
+            <div class="w-[90%] md:w-[40%] m-5">
+                <img src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/Certificate-of-Exclusive5.png"
+                    alt="">
+                <p class="p-5 mt-0">
+                <p class="text-blue-600 text-3xl font-bold text-center">Certificate Of Experience</p>
+                <p class="text-black text-xl font-semibold text-center mt-3">By Bada Business</p>
+                <span class="w-[100px] border-b-8 border-b-gray-400 block ml-auto mr-auto mt-3"></span>
+                </p>
+            </div>
+
+        </div>
+        <p class="text-blue-600 text-3xl font-bold text-center w-[80%] ml-auto mr-auto md:w-[50%]">Easily Shareable</p>
+        <p class="text-black text-xl font-semibold text-center mt-3 w-[80%] ml-auto mr-auto md:w-[50%]">Apne Social
+            Media par Share Karen
+            Apni Website & WhatsApp Status Par Lagaye
+            Apne Resume & Bio Main Lagaen</p>
+        <span class="w-[100px] border-b-8 border-b-gray-400 block ml-auto mr-auto mt-3"></span>
+        <p class="text-blue-600 text-3xl font-bold text-center ml-auto mr-auto w-[80%] md:w-[50%]">Build Credibility</p>
+        <p class="text-black text-xl font-semibold text-center mt-3 ml-auto mr-auto w-[80%] md:w-[50%]">Professional
+            Circle Main Apni Credibility Badhaye</p>
+
+    </div>
+
+    <div class="bg-gray-100 pt-5 pb-5">
+        <h2 class="text-center p-4 text-xl font-bold text-black md:text-3xl">PROGRAM IN ENTREPRENEURSHIP</h2>
+        <p class="text-center w-[90%] ml-auto mr-auto">Check Out The Syllabus, Duration, Eligibility And Career
+            Prospects For The Entrepreneurship Course.</p>
+        <div class="md:flex md:justify-center md:flex-wrap">
+            <div class="md:w-[48%] ml-auto mr-auto md:m-0"><img class="w-[100%]" src="Screenshot 2023-10-01 024324.png"
+                    alt="">
+                <a href="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/pdf/Semester_1.pdf"
+                    class="text-center bg-red-600 w-[200px] ml-auto mr-auto block h-11 rounded-lg mt-5 mb-5 p-2 text-white font-semibold hover:underline">Download
+                    Syllabus</a>
+            </div>
+            <div class="md:w-[48%] ml-auto mr-auto md:m-0"><img class="w-[100%]" src="Screenshot 2023-10-01 024405.png"
+                    alt="">
+                <a href="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/pdf/Semester_2.pdf"
+                    class="text-center bg-red-600 w-[200px] h-11 block ml-auto mr-auto rounded-lg mt-5 mb-5 p-2 text-white font-semibold hover:underline">Download
+                    Syllabus</a>
+            </div>
+        </div>
+        <p class="text-center text-xl text-black font-semibold mb-4">Enroll and Succeed</p>
+        <button
+            class="bg-red-600 text-white w-[60%] ml-auto mr-auto h-16 rounded-3xl mt-2 block hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 md:w-[500px] font-bold"
+            onclick="chengeEnrollFormDisplay()">Register
+            Now</button>
+    </div>
+
+    <div>
+        <h2
+            class="bg-blue-600 rounded-xl ml-auto mr-auto p-4 w-[90%] grid place-content-center text-white font-bold text-2xl text-center md:w-[600px] mb-5">
+            AAPKO KAUN PADHAYEGA</h2>
+        <div class="mt-5 mb-9">
+            <img class="w-56 ml-auto mr-auto"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/vbs_mentor.png"
+                alt="">
+            <p class="text-lg ml-auto mr-auto text-center text-black font-semibold">Learn From Dr. Vivek Bindra</p>
+            <p class="text-sm ml-auto mr-auto text-center text-gray-600 ">Founder & CEO, Bada Business</p>
+        </div>
+        <p class="text-center w-[90%] text-blue-600 text-3xl font-semibold ml-auto mr-auto">India Ke Top Industrialists
+            ke Sessions</p>
+        <div class="w-[90%] md:w-[80%] lg:w-[60%] h-56 md:h-[250px] ml-auto mr-auto mySwiper swiper mt-8 mb-8">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="h-[20vw] sm:h-[15vw] md:h-32 ml-auto mr-auto"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/ritesh_agarwal.png"
+                        alt="">
+                    <p class="text-sm ml-auto mr-auto text-center text-black font-semibold mt-4 mb-2">Mr. Ritesh Agarwal
+                    </p>
+                    <p class="text-[8px] ml-auto mr-auto md:text-[12px] text-center text-gray-600 ">CEO, OYO Rooms</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-[20vw] sm:h-[15vw] md:h-32 ml-auto mr-auto"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/vivek_oberoi.png"
+                        alt="">
+                    <p class="text-sm ml-auto mr-auto text-center text-black font-semibold mt-4 mb-2">Mr. Vivek Oberoi
+                    </p>
+                    <p class="text-[8px] ml-auto mr-auto md:text-[12px] text-center text-gray-600 ">CEO, OYO Rooms</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-[20vw] sm:h-[15vw] md:h-32 ml-auto mr-auto"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/acharya_balakrishnan.png"
+                        alt="">
+                    <p class="text-sm ml-auto mr-auto text-center text-black font-semibold mt-4 mb-2">Mr. Acharya
+                        Balakrishnan</p>
+                    <p class="text-[8px] ml-auto mr-auto md:text-[12px] text-center text-gray-600 ">CEO, OYO Rooms</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-[20vw] sm:h-[15vw] md:h-32 ml-auto mr-auto"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/LalitAgarwal.png"
+                        alt="">
+                    <p class="text-sm ml-auto mr-auto text-center text-black font-semibold mt-4 mb-2">Mr. Lalit Agarwal
+                    </p>
+                    <p class="text-[8px] ml-auto mr-auto md:text-[12px] text-center text-gray-600 ">CEO, OYO Rooms</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-[20vw] sm:h-[15vw] md:h-32 ml-auto mr-auto"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/RS_Sodhi.png"
+                        alt="">
+                    <p class="text-sm ml-auto mr-auto text-center text-black font-semibold mt-4 mb-2">Mr. Rs Sodhi</p>
+                    <p class="text-[8px] ml-auto mr-auto md:text-[12px] text-center text-gray-600 ">CEO, OYO Rooms</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-[20vw] sm:h-[15vw] md:h-32 ml-auto mr-auto"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/manujain.png"
+                        alt="">
+                    <p class="text-sm ml-auto mr-auto text-center text-black font-semibold mt-4 mb-2">Mr. Manu Jain</p>
+                    <p class="text-[8px] ml-auto mr-auto md:text-[12px] text-center text-gray-600 ">CEO, OYO Rooms</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-[20vw] sm:h-[15vw] md:h-32 ml-auto mr-auto"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/yashish_dahiya.png"
+                        alt="">
+                    <p class="text-sm ml-auto mr-auto text-center text-black font-semibold mt-4 mb-2">Mr. Yashish Dahiya
+                    </p>
+                    <p class="text-[8px] ml-auto mr-auto md:text-[12px] text-center text-gray-600 ">CEO, OYO Rooms</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="h-[20vw] sm:h-[15vw] md:h-32 ml-auto mr-auto"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/nilesh_gupta.png"
+                        alt="">
+                    <p class="text-sm ml-auto mr-auto text-center text-black font-semibold mt-4 mb-2">Mr. Nilesh Gupta
+                    </p>
+                    <p class="text-[8px] ml-auto mr-auto md:text-[12px] text-center text-gray-600 ">CEO, OYO Rooms</p>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="skew-y-[-8deg] bg-blue-600 pt-12 pb-4">
+        <div class="skew-y-[8deg]">
+            <h2 class="text-center text-white text-3xl font-bold mb-5">Kaun Apply Kar Sakta hai</h2>
+            <div class="md:flex md:justify-center">
+                <img class="w-[65vw] ml-auto mr-auto md:w-[300px]"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/apply_boy.png"
+                    alt="">
+
+                <p class="text-white md:pt-20 ml-auto mr-auto text-center font-bold mt-0 mb-6">
+                    <img class="w-9 inline"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/apply_1.png"
+                        alt=""> Students - 12th Class Onwards <br><br>
+                    <img class="w-9 inline"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/apply_3.png"
+                        alt=""> Young Entrepreneurs
+                </p>
+                <p class="text-white ml-auto p-6 md:pt-16 mr-auto text-center font-bold mt-6 mb-6">
+                    <img class="w-9 inline"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/apply_2.png"
+                        alt=""> Students - Planning To Startup <br><br>
+                    <img class="w-9 inline"
+                        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/apply_4.png"
+                        alt=""> Professionals Seeking Business Knowledge
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <h2
+        class="bg-blue-600 mt-14 ml-auto mr-auto p-4 w-[90%] grid place-content-center text-white font-bold text-2xl text-center md:w-[400px] mb-5">
+        ABOUT DR. VIVEK BINDRA</h2>
+
+    <div class="flex flex-wrap justify-center ">
+        <img class="w-[400px] mt-7 mb-7"
+            src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/about_vbs.png" alt="">
+        <div class="pt-10">
+            <p class="w-[90%] md:w-[80%] text-center text-black text-lg font-semibold ml-auto mr-auto">An International
+                Motivational Speaker, <br>Leadership Consultant & Startup Guru</p>
+            <img class="ml-auto mr-auto mt-5 mb-5"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/dotted.png" alt="">
+            <p
+                class="w-[90%] md:w-[80%] p-7 text-center text-blue-600 text-2xl font-semibold ml-auto mr-auto border-dotted border-b-2 border-b-black">
+                Trusted Advisor To 1500
+                Corporates</p>
+            <p class="w-[90%] md:w-[80%] text-center p-10 text-blue-600 text-2xl font-semibold ml-auto mr-auto">CEO
+                Coach To Over Top 100 CEOs
+                In The Country</p>
+        </div>
+    </div>
+
+    <div class="bg-gray-300 pt-8">
+        <img class="w-[300px] sm:w-[400px] md:w-[500px] ml-auto mr-auto mt-7"
+            src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/9_guinness_world.png"
+            alt="">
+        <p class="text-black font-bold text-3xl text-center p-4">Paane Wale World Main <br>
+            Ekmatra Business Mentor</p>
+        <div class="flex justify-center flex-wrap">
+            <img class="w-[80%] sm:w-[40%] lg:w-[300px] m-7 md:w-[28%]" src="Screenshot 2023-10-01 133749.png" alt="">
+            <img class="w-[80%] sm:w-[40%] lg:w-[300px] m-7 md:w-[28%]" src="Screenshot 2023-10-01 133749.png" alt="">
+            <img class="w-[80%] sm:w-[40%] lg:w-[300px] m-7 md:w-[28%]" src="Screenshot 2023-10-01 133749.png" alt="">
+            <img class="w-[80%] sm:w-[40%] lg:w-[300px] m-7 md:w-[28%]" src="Screenshot 2023-10-01 133749.png" alt="">
+            <img class="w-[80%] sm:w-[40%] lg:w-[300px] m-7 md:w-[28%]" src="Screenshot 2023-10-01 133749.png" alt="">
+            <img class="w-[80%] sm:w-[40%] lg:w-[300px] m-7 md:w-[28%]" src="Screenshot 2023-10-01 133749.png" alt="">
+            <img class="w-[80%] sm:w-[40%] lg:w-[300px] m-7 md:w-[28%]" src="Screenshot 2023-10-01 133749.png" alt="">
+            <img class="w-[80%] sm:w-[40%] lg:w-[300px] m-7 md:w-[28%]" src="Screenshot 2023-10-01 133749.png" alt="">
+            <img class="w-[80%] sm:w-[40%] lg:w-[300px] m-7 md:w-[28%]" src="Screenshot 2023-10-01 133749.png" alt="">
+        </div>
+    </div>
+
+    <img class="w-[100%] mb-7"
+        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/cover_Banar.jpg" alt="">
+
+    <div class="flex justify-center flex-wrap">
+        <div>
+            <img class="w-[360px] m-4"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/media_cover_1.png"
+                alt="">
+            <a href="https://m.dailyhunt.in/news/india/english/ani+english-epaper-anieng/for+the+first+time+in+india+billionaires+will+teach+exclusive+business+strategies+to+aspiring+entrepreneurs-newsid-n500901790?sm=Y"
+                class="cursor-pointer block w-48 h-9 bg-white border-2 border-red-600 text-red-600 rounded-3xl ml-auto mr-auto p-1 font-bold text-center hover:bg-red-600 hover:text-white">Read
+                More >></a>
+        </div>
+        <div>
+            <img class="w-[360px] m-4"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/media_cover_2.png"
+                alt="">
+            <a href="https://m.dailyhunt.in/news/india/english/ani+english-epaper-anieng/for+the+first+time+in+india+billionaires+will+teach+exclusive+business+strategies+to+aspiring+entrepreneurs-newsid-n500901790?sm=Y"
+                class="cursor-pointer block w-48 h-9 bg-white border-2 border-red-600 text-red-600 rounded-3xl ml-auto mr-auto p-1 font-bold text-center hover:bg-red-600 hover:text-white">Read
+                More >></a>
+        </div>
+        <div>
+            <img class="w-[360px] m-4"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/media_cover_3.png"
+                alt="">
+            <a href="https://m.dailyhunt.in/news/india/english/ani+english-epaper-anieng/for+the+first+time+in+india+billionaires+will+teach+exclusive+business+strategies+to+aspiring+entrepreneurs-newsid-n500901790?sm=Y"
+                class="cursor-pointer block w-48 h-9 bg-white border-2 border-red-600 text-red-600 rounded-3xl ml-auto mr-auto p-1 font-bold text-center hover:bg-red-600 hover:text-white">Read
+                More >></a>
+        </div>
+        <div>
+            <img class="w-[360px] m-4"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/media_cover_4.png"
+                alt="">
+            <a href="https://m.dailyhunt.in/news/india/english/ani+english-epaper-anieng/for+the+first+time+in+india+billionaires+will+teach+exclusive+business+strategies+to+aspiring+entrepreneurs-newsid-n500901790?sm=Y"
+                class="cursor-pointer block w-48 h-9 bg-white border-2 border-red-600 text-red-600 rounded-3xl ml-auto mr-auto p-1 font-bold text-center hover:bg-red-600 hover:text-white">Read
+                More >></a>
+        </div>
+        <div>
+            <img class="w-[360px] m-4"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/media_cover_5.png"
+                alt="">
+            <a href="https://m.dailyhunt.in/news/india/english/ani+english-epaper-anieng/for+the+first+time+in+india+billionaires+will+teach+exclusive+business+strategies+to+aspiring+entrepreneurs-newsid-n500901790?sm=Y"
+                class="cursor-pointer block w-48 h-9 bg-white border-2 border-red-600 text-red-600 rounded-3xl ml-auto mr-auto p-1 font-bold text-center hover:bg-red-600 hover:text-white">Read
+                More >></a>
+        </div>
+        <div>
+            <img class="w-[360px] m-4"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/media_cover_6.png"
+                alt="">
+            <a href="https://m.dailyhunt.in/news/india/english/ani+english-epaper-anieng/for+the+first+time+in+india+billionaires+will+teach+exclusive+business+strategies+to+aspiring+entrepreneurs-newsid-n500901790?sm=Y"
+                class="cursor-pointer block w-48 h-9 bg-white border-2 border-red-600 text-red-600 rounded-3xl ml-auto mr-auto p-1 font-bold text-center hover:bg-red-600 hover:text-white">Read
+                More >></a>
+        </div>
+    </div>
+
+    <img class="ml-auto mr-auto mt-8"
+        src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/star_r.png" alt="">
+    <h2 class="mt-4 text-center text-blue-600 text-3xl font-semibold">Awards & Accolades</h2>
+
+    <div class="flex justify-center flex-wrap">
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_1.png" alt="">
+            <p class="text-lg text-black font-bold text-center">40 Under 40</p>
+        </div>
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_2.png" alt="">
+            <p class="text-lg text-black font-bold text-center">Educational Entrepreneur Award By Asia Leadership
+                Federation</p>
+        </div>
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_3.png" alt="">
+            <p class="text-lg text-black font-bold text-center">CEO For the Year 2020, Indian Achiever’s Award</p>
+        </div>
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_4.png" alt="">
+            <p class="text-lg text-black font-bold text-center">BW Young Entrepreneur Award 2020</p>
+        </div>
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_5.png" alt="">
+            <p class="text-lg text-black font-bold text-center">Business Coach of The Year By Entrepreneur Magazine</p>
+        </div>
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_6.png" alt="">
+            <p class="text-lg text-black font-bold text-center">Business Coach of The Year By Entrepreneur Magazine</p>
+        </div>
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_7.png" alt="">
+            <p class="text-lg text-black font-bold text-center">Business Coach of The Year By Entrepreneur Magazine</p>
+        </div>
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_8.png" alt="">
+            <p class="text-lg text-black font-bold text-center">Business Coach of The Year By Entrepreneur Magazine</p>
+        </div>
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_9.png" alt="">
+            <p class="text-lg text-black font-bold text-center">Business Coach of The Year By Entrepreneur Magazine</p>
+        </div>
+        <div class="shadow-2xl w-[360px] m-5 rounded-2xl p-4">
+            <img class="rounded-2xl ml-auto mr-auto w-[150px] mb-6"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/awards_10.png"
+                alt="">
+            <p class="text-lg text-black font-bold text-center">Business Coach of The Year By Entrepreneur Magazine</p>
+        </div>
+    </div>
+    <h2 class="mt-4 text-center text-black text-2xl font-semibold">Join Billionaire's Blueprint Program <br>
+        By Dr. Vivek Bindra</h2>
+    <button
+        class="bg-red-600 text-white w-[60%] ml-auto mr-auto h-11 rounded-3xl mt-8 block hover:bg-white hover:border-2 hover:border-red-600 hover:text-red-600 md:w-[500px] font-bold"
+        onclick="chengeEnrollFormDisplay()">Register
+        Now</button>
+    <h2
+        class="bg-blue-600 mt-14 ml-auto mr-auto p-4 w-[90%] grid place-content-center text-white font-bold text-2xl text-center md:w-[400px] mb-5">
+        Pricing & offerings</h2>
+    <div class="flex justify-center flex-wrap">
+        <img class="w-[90%] md:w-[35%] shadow-2xl m-4 md:m-8" src="Screenshot 2023-10-01 150810.png" alt="">
+        <img class="w-[90%] md:w-[35%] shadow-2xl m-4 md:m-8" src="Screenshot 2023-10-01 150832.png" alt="">
+        <img class="w-[90%] md:w-[35%] shadow-2xl m-4 md:m-8" src="Screenshot 2023-10-01 150850.png" alt="">
+        <img class="w-[90%] md:w-[35%] shadow-2xl m-4 md:m-8" src="Screenshot 2023-10-01 150916.png" alt="">
+    </div>
+
+    <div class="bg-blue-950 p-8">
+        <p class="text-xl text-white underline font-semibold text-center">Enquire now</p>
+        <form action="" onsubmit="handelsubmit(event)" class="w-[90%] ml-auto mr-auto bg-gray-400 mt-5 p-6">
+            <input type="text" name="Name" placeholder="Name" class="w-[95%] md:w-[46%] h-11 rounded-md p-5 m-4">
+            <input type="number" placeholder="Phone Number" name="phoneNo" id="phoneNo"
+                class="w-[95%] md:w-[46%] h-11 rounded-md p-5 m-4">
+            <br>
+            <input type="email" name="email" placeholder="Email(optional)" class="w-[95%] h-11 rounded-md p-5 m-4"><br>
+            <textarea name="message" placeholder="Message" cols="30" rows="10"
+                class="w-[95%] h-32 rounded-md p-5 m-4"></textarea>
+            <input type="submit" value="Submit"
+                class="text-white font-semibold hover:bg-white hover:text-red-600 hover:border-2 hover:border-red-600 bg-red-600 w-28 h-11 rounded-md p-2 m-4">
+        </form>
+    </div>
+
+    <footer class="flex justify-center flex-wrap text-white bg-blue-700 pt-5 pb-20">
+        <div><img class="w-[250px] mb-5"
+                src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/bb_white.png"
+                alt="vivek ar boro bara">
+            <p class="text-sm font-bold text-white w-[300px] p-4">
+                For A Better Learning Experience And
+                Outcome, Every Course Has A
+                Combination Of Graphics, Videos,
+                Animation, Reading Material & Assesments
+            </p>
+        </div>
+        <div class="w-[350px] m-5">
+            <a class="float-right m-2" href="#"><img
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/nw_fb.png"
+                    alt="facebook"></a>
+            <a class="float-right m-2" href="#"><img
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/nw_twitter.png"
+                    alt="facebook"></a>
+            <a class="float-right m-2" href="#"><img
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/nw_youtube.png"
+                    alt="facebook"></a>
+            <a class="float-right m-2" href="#"><img
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/nw_linkedin.png"
+                    alt="facebook"></a>
+            <p>
+                <img class="w-24 m-2 mt-6 float-right"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/nw_apple.png"
+                    alt="">
+                <img class="w-24 m-2 mt-6 float-right"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/nw_google.png"
+                    alt="">
+                <img class="w-24 m-2 mt-6 float-right"
+                    src="https://images.badabusiness.com/bb-website-prod/assets/digital_webinar/images/bb_logo.png"
+                    alt="">
+            </p>
+            <p class="cursor-pointer hover:underline text-white font-semibold text-lg text-center mt-3">Terms & Condtion
+                Privacy Policy</p>
+        </div>
+        <div class="p-6 m-5">
+            <h2 class="text-white text-2xl font-bold m-5">Contact us</h2>
+            <p class="m-4 text-white ">✉️ knowledgecenter.bb@badabusiness.com</p>
+            <p class="m-4 text-white ">🏠 Plot No- 15, Okhla Phase III, New Delhi - 110020</p>
+        </div>
+    </footer>
+
+    <div class="fixed bottom-0 left-0 h-14 w-[100vw] flex">
+        <button class="w-[50vw] bg-white text-red-600 font-bold text-xl hover:underline"
+            onclick="chengeEnrollFormDisplay()">Buy Now</button>
+        <button class="w-[50vw] bg-red-600 text-white font-bold text-xl hover:underline"
+            onclick="chengeEnrollFormDisplay()">Enroll Now</button>
+    </div>
+
+    <div class="h-screen w-screen hidden fixed top-0 left-0 place-content-center bg-[rgb(0,0,0,0.5)]" id="enroll_form">
+        <div class="p-4 bg-white w-[90vw] md:w-[50vw] lg:w-[40vw] rounded-md">
+            <button class="material-symbols-outlined float-right inline text-black cursor-pointer hover:text-gray-500"
+                onclick="chengeEnrollFormDisplay()">
+                close
+            </button>
+            <h2 class="text-black text-2xl font-bold mb-5">Enroll Now</h2>
+            <hr>
+            <form action="" onsubmit="handelsubmit(event)">
+                <input type="text" name="name" id="" placeholder="Name"
+                    class="w-[94%] h-11 p-4 border-2 border-gray-500 rounded-3xl m-3"><br>
+                <input type="number" name="number" id="" placeholder="Phone Number"
+                    class="w-[94%] h-11 p-4 border-2 border-gray-500 rounded-3xl m-3"><br>
+                <input type="email" name="email" id="" placeholder="Email"
+                    class="w-[94%] h-11 p-4 border-2 border-gray-500 rounded-3xl m-3"><br>
+                <input type="checkbox" name="terms" checked id="terms"> <label class="p-4 inline-block" for="terms">By
+                    Clicking on the same you are accepting our terms and conditions and Privacy Policy.</label><br>
+                <input type="submit" value="Enroll Now"
+                    class="text-center p-2 hover:bg-blue-500 ml-4 text-white text-xl font-semibold bg-blue-600 rounded-3xl h-11 w-[94%]">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: window.outerWidth >= 1024 ? 5 : window.outerWidth >= 768 ? 4 : 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        function handelsubmit(event) {
+            event.preventDefault()
+        }
+
+        function chengeEnrollFormDisplay() {
+            let x = document.getElementById("enroll_form");
+            x.style.display === "grid" ? x.style.display = "none" : x.style.display = "grid";
+        }
+
+        setTimeout(() => {
+            document.getElementById("enroll_form").style.display = "grid";
+        }, 3000);
+
+        document.getElementById("expend_more").addEventListener("click", (e) => {
+            let x = document.getElementById("menu");
+            x.style.display === "block" ? x.style.display = "none" : x.style.display = "block";
+        })
+        function resizewindow() {
+            let x = document.getElementById("menu");
+            window.outerWidth >= 768 ? x.style.display = "flex" : x.style.display === "block" ? x.style.display = "block" : x.style.display = "none"
+        }
+    </script>
+</body>
+
+</html>
